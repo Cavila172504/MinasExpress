@@ -1,0 +1,82 @@
+﻿[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-5HNPAN7B.js[39m  [2m | [22m[2m-[22m                     [2m | [22m[36m230.20 kB[39m[2m | [22m               [36m63.69 kB[39m
+[32mstyles-B5KMO4WW.css[39m[2m | [22m[2mstyles[22m                [2m | [22m  [36m9.20 kB[39m[2m | [22m                [36m2.19 kB[39m
+[32mmain-RIZOAXP4.js[39m   [2m | [22m[2mmain[22m                  [2m | [22m  [36m1.68 kB[39m[2m | [22m              [36m626 bytes[39m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m         [2m | [22m[1m241.08 kB[22m[2m | [22m               [1m66.51 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m                 [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-RYMPVHIR.js[39m  [2m | [22m[2m-[22m                     [2m | [22m [36m21.20 kB[39m[2m | [22m                [36m5.01 kB[39m
+[32mchunk-VAKNVXFB.js[39m  [2m | [22m[2m-[22m                     [2m | [22m [36m13.41 kB[39m[2m | [22m                [36m3.52 kB[39m
+[32mchunk-HZLP5KJQ.js[39m  [2m | [22m[2mmotorizado-component[22m  [2m | [22m [36m12.63 kB[39m[2m | [22m                [36m3.30 kB[39m
+[32mchunk-NWTXSIHN.js[39m  [2m | [22m[2mhome-component[22m        [2m | [22m [36m11.37 kB[39m[2m | [22m                [36m3.24 kB[39m
+[32mchunk-RLW7BMIH.js[39m  [2m | [22m[2mcarrito-component[22m     [2m | [22m [36m11.12 kB[39m[2m | [22m                [36m3.15 kB[39m
+[32mchunk-5EFLGOFP.js[39m  [2m | [22m[2mseguimiento-component[22m [2m | [22m [36m10.22 kB[39m[2m | [22m                [36m3.00 kB[39m
+[32mchunk-7BAVMY3A.js[39m  [2m | [22m[2mlocal-detail-component[22m[2m | [22m  [36m7.92 kB[39m[2m | [22m                [36m2.40 kB[39m
+[32mchunk-VK4YRKSU.js[39m  [2m | [22m[2mperfil-component[22m      [2m | [22m  [36m6.88 kB[39m[2m | [22m                [36m1.98 kB[39m
+[32mchunk-U5SATD73.js[39m  [2m | [22m[2mchat-component[22m        [2m | [22m  [36m6.24 kB[39m[2m | [22m                [36m2.10 kB[39m
+[32mchunk-RTAZSUYS.js[39m  [2m | [22m[2mpedidos-component[22m     [2m | [22m  [36m5.87 kB[39m[2m | [22m                [36m1.85 kB[39m
+[32mchunk-MEDD3QRO.js[39m  [2m | [22m[2mlogin-component[22m       [2m | [22m  [36m5.51 kB[39m[2m | [22m                [36m1.92 kB[39m
+[32mchunk-OAKVXLSY.js[39m  [2m | [22m[2msplash-component[22m      [2m | [22m  [36m3.88 kB[39m[2m | [22m                [36m1.26 kB[39m
+
+Application bundle generation complete. [3.291 seconds] - 2026-03-10T21:49:21.925Z
+
+node.exe : 
+[1m[33m[33mÔû▓ [43;
+33m[[43;30mWARNING[43
+;33m][0m [1mangular:s
+tyles/component:css;67b
+7de8781aab48426d1f9b3f8
+c0f86159e1268469c376499
+e2dbacbbfc6bb30;C:/Proy
+ecto/MinasExpress/front
+end/src/app/features/ho
+me/home.component.ts 
+exceeded maximum 
+budget. Budget 4.00 kB 
+was not met by 612 
+bytes with a total of 
+4.61 kB.[0m
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([1m[33m[33   
+ mÔ...of 4.61 kB.[    
+0m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+
+[33mÔû▓ [43;33m[[43;
+30mWARNING[43;33m][0m
+ [1mangular:styles/com
+ponent:css;675d9cae9f83
+57bdebf40ec39f3f3633084
+f608b096ee092546dc3185c
+56d32a;C:/Proyecto/Mina
+sExpress/frontend/src/a
+pp/features/motorizado/
+motorizado.component.ts
+ exceeded maximum 
+budget. Budget 4.00 kB 
+was not met by 460 
+bytes with a total of 
+4.46 kB.[0m
+
+[39m[22m
+Output location: C:\Proyecto\MinasExpress\frontend\dist\frontend
+
