@@ -2,8 +2,8 @@ import { Component, inject, signal, OnInit, ElementRef, ViewChild, AfterViewChec
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ChatService, AuthService } from '../../core/services/data.service';
-import { Mensaje } from '../../core/models/interfaces';
+import { ChatService, AuthService } from '../../../core/services/data.service';
+import { Mensaje } from '../../../core/models/interfaces';
 
 @Component({
     selector: 'app-chat',

@@ -5,63 +5,77 @@ export const routes: Routes = [
     {
         path: 'splash',
         loadComponent: () =>
-            import('./features/auth/splash.component').then((m) => m.SplashComponent),
+            import('./modules/customer/auth/splash.component').then((m) => m.SplashComponent),
     },
     {
         path: 'login',
         loadComponent: () =>
-            import('./features/auth/login.component').then((m) => m.LoginComponent),
+            import('./modules/customer/auth/login.component').then((m) => m.LoginComponent),
     },
     {
         path: 'home',
         loadComponent: () =>
-            import('./features/home/home.component').then((m) => m.HomeComponent),
+            import('./modules/customer/home/home.component').then((m) => m.HomeComponent),
     },
     {
         path: 'local/:id',
         loadComponent: () =>
-            import('./features/locales/local-detail.component').then(
+            import('./modules/customer/shop-profile/local-detail.component').then(
                 (m) => m.LocalDetailComponent
             ),
     },
     {
         path: 'carrito',
         loadComponent: () =>
-            import('./features/carrito/carrito.component').then(
+            import('./modules/customer/checkout/carrito.component').then(
                 (m) => m.CarritoComponent
             ),
     },
     {
         path: 'pedidos',
         loadComponent: () =>
-            import('./features/pedidos/pedidos.component').then(
+            import('./modules/customer/order-tracking/pedidos.component').then(
                 (m) => m.PedidosComponent
             ),
     },
     {
         path: 'seguimiento/:id',
         loadComponent: () =>
-            import('./features/pedidos/seguimiento.component').then(
+            import('./modules/customer/order-tracking/seguimiento.component').then(
                 (m) => m.SeguimientoComponent
             ),
     },
     {
         path: 'chat/:id',
         loadComponent: () =>
-            import('./features/chat/chat.component').then((m) => m.ChatComponent),
+            import('./modules/customer/chat/chat.component').then((m) => m.ChatComponent),
     },
     {
         path: 'motorizado',
         loadComponent: () =>
-            import('./features/motorizado/motorizado.component').then(
+            import('./modules/driver/motorizado/motorizado.component').then(
                 (m) => m.MotorizadoComponent
+            ),
+    },
+    {
+        path: 'seguimiento-moto/:id',
+        loadComponent: () =>
+            import('./modules/driver/motorizado/seguimiento-motorizado.component').then(
+                (m) => m.SeguimientoMotorizadoComponent
             ),
     },
     {
         path: 'perfil',
         loadComponent: () =>
-            import('./features/perfil/perfil.component').then(
+            import('./modules/customer/profile/perfil.component').then(
                 (m) => m.PerfilComponent
+            ),
+    },
+    {
+        path: 'admin',
+        loadComponent: () =>
+            import('./modules/admin/dashboard/admin.component').then(
+                (m) => m.AdminComponent
             ),
     },
     { path: '**', redirectTo: 'splash' },
